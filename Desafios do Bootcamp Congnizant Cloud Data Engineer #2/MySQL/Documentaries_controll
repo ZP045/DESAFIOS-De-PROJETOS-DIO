@@ -1,0 +1,17 @@
+CREATE TABLE documentaries(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    type INT NOT NULL,
+    name VARCHAR(30) NOT NULL,
+    total_ep INT,
+    atual_ep INT,
+    last_view DATE DEFAULT CURRENT_TIMESTAMP
+)
+
+
+INSERT INTO documentaries  ('id', 'type', 'name', 'total_ep', 'atual_ep', 'last_view') Values (1, 0, 'Praias', 25, 3, current_timestramp())
+
+
+INSERT INTO documentaries  ('id', 'type', 'name', 'total_ep', 'atual_ep', 'last_view') Values (2, 0, 'A Natureza e os seus avisos', 30, 7, current_timestramp())
+
+
+INSERT INTO documentaries  ('id', 'type', 'name', 'total_ep', 'atual_ep', 'last_view') Values (3, 0, 'O Mundo e seus encantos', 50, 10, current_timestramp())
