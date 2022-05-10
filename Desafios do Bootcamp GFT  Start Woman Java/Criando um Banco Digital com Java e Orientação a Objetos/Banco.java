@@ -13,7 +13,7 @@ public class Banco {
 		return email;
         }
 
-        public Double getcpf() {
+        public Double getCpf() {
 		return cpf;
         }
         
@@ -29,11 +29,11 @@ public class Banco {
 		this.email = email;
 	}
         
-        public void setNome(Double cpf) {
+        public void setCpf(Double cpf) {
 		this.cpf = cpf;
 	}
 
-        public void setNome(Int telefone) {
+        public void setTelefone(Int telefone) {
 		this.telefone = telefone;
 	}
 
