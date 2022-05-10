@@ -3,6 +3,9 @@
 public class Banco {
 
 	private String nome;
+        private String email;
+        private Double cnpj;
+        private Int telefone;
 	private List<Conta> contas;
 
 	public String getNome() {
